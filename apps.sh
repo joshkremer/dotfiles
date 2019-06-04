@@ -11,3 +11,4 @@ brew cask install jumpcut
 brew cask install local-by-flywheel
 brew cask install transmit
 brew cask install atom
+brew cask install github
