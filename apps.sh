@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 brew cask install google-chrome
+brew cask install firefox
 brew cask install spectacle
 brew cask install alfred
 brew cask install cloudapp
