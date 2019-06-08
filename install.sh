@@ -7,4 +7,4 @@ CI=1 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/i
 #install macos apps
 ./apps.sh
 ./zsh.sh
-./macos.#!/bin/sh
+./macos.sh
