@@ -7,7 +7,7 @@ export ZSH=/Users/joshkremer/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="tjkirch"
+ZSH_THEME="TheOne"
 
 
 # Uncomment the following line to use case-sensitive completion.
@@ -85,32 +85,28 @@ source $ZSH/oh-my-zsh.sh
 # Homebrew
 export PATH=/usr/local/bin:$PATH
 
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# Homemade commands
-alias htdocs="cd /Applications/MAMP/htdocs"
+#aliases
 alias lll="clear & ls"
-alias petfam="cd /Applications/MAMP/htdocs/local.yourpetfam.com"
-alias youtube="cd /Applications/MAMP/htdocs/local.thetubes.com/thetubes"
-alias ccat="highlight -O ansi"
+alias SD="sudo shutdown -h now"
 alias delete="rm -rf"
-alias barehtml="cp /Applications/MAMP/htdocs/bare_html.php .; vim bare_html.php"
-alias barephp="cp /Applications/MAMP/htdocs/bare_php.php .; vim bare_php.php"
-alias barejs="cp /Applications/MAMP/htdocs/bare_js.js .; vim bare_js.js"
-alias bareproject="cp /Applications/MAMP/htdocs/bare_js.js .; cp /Applications/MAMP/htdocs/bare_css.css .; cp /Applications/MAMP/htdocs/bare_html.php .; cp /Applications/MAMP/htdocs/bare_php.php ."
-
-#Config editing
+alias activate_venv="source ~/workspace/petfam_scripts/venv2.7/bin/activate"
+alias activate_venv_3.7="source ~/workspace/venv_3.7/bin/activate"
+alias sitespeed_url_list="cd ~/workspace/webmasters-toolkit/sitespeed/; docker run --rm -v "$(pwd)":/sitespeed.io sitespeedio/sitespeed.io:8.15.2 ~/workspace/webmasters-toolkit/sitespeed/urls.txt"
+alias webmasters_toolkit="~/workspace/webmasters-toolkit"
+alias download_petfam_data="rsync -avzh pythonanywhere:/home/petfam/members/input_files ."
 alias vimrc="vim ~/.vimrc"
 alias zshrc="vim ~/.zshrc"
-alias downloads="~/Downloads ; ls"
+alias downloads="~/Downloads ; clear; ls"
 alias desktop="~/Desktop ; ls"
-alias scratch="cd /Applications/MAMP/htdocs/scratch.com ; ls"
-alias python=python3
+alias workspace="~/workspace ; ls"
+alias passcrack="~/workspace/passcrack ; ls"
+alias pagespeed="~/workspace/webmasters-toolkit/page-speed/ ; ls"
 alias hosts="sudo vim /etc/hosts"
-alias vhosts="vim /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf"
+alias flushdns="sudo killall -HUP mDNSResponder; sudo killall -INFO mDNSResponder"
+alias zip2john="/usr/local/share/john/zip2john"
+alias pcat='pygmentize -f terminal256 -O style=native -g'
+alias pcat='pygmentize -f terminal256 -O style=native -g'
+alias get_public_ip='curl https://api.ipify.org'
 
 #PATHs
-export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
