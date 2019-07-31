@@ -89,5 +89,7 @@ brew install vbindiff
 brew install zopfli
 brew install wget
 
+brew install exa
+
 # Remove outdated versions from the cellar.
 brew cleanup
