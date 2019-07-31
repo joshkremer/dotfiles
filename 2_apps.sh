@@ -13,3 +13,11 @@ brew cask install local-by-flywheel
 brew cask install transmit
 brew cask install atom
 brew cask install github
+
+brew cask install 1password
+brew cask install odrive
+brew cask install sequel-pro
+brew cask install screaming-frog-seo-spider
+brew cask install spotify
+brew cask install tunnelbear
+brew cask install whatsapp
