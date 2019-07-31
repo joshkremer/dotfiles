@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+defaults write com.apple.finder AppleShowAllFiles YES
+
 cp .zshrc ~/.zshrc
 cp .vimrc ~/.vimrc
 cp TheOne.zsh-theme ~/.oh-my-zsh/
