@@ -108,6 +108,9 @@ alias zip2john="/usr/local/share/john/zip2john"
 alias pcat='pygmentize -f terminal256 -O style=native -g'
 alias pcat='pygmentize -f terminal256 -O style=native -g'
 alias get_public_ip='curl https://api.ipify.org'
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+
 
 #PATHs
 export PATH="/usr/local/sbin:$PATH"
