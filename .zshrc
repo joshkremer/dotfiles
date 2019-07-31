@@ -86,7 +86,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/bin:$PATH
 
 #aliases
-alias lll="clear & ls"
+alias lll="clear & exa -l"
 alias SD="sudo shutdown -h now"
 alias delete="rm -rf"
 alias activate_venv="source ~/workspace/petfam_scripts/venv2.7/bin/activate"
@@ -96,6 +96,7 @@ alias webmasters_toolkit="~/workspace/webmasters-toolkit"
 alias download_petfam_data="rsync -avzh pythonanywhere:/home/petfam/members/input_files ."
 alias vimrc="vim ~/.vimrc"
 alias zshrc="vim ~/.zshrc"
+alias mapbuilder="~/workspace/pythonanywhere_petfam/mapbuilder"
 alias downloads="~/Downloads ; clear; ls"
 alias desktop="~/Desktop ; ls"
 alias workspace="~/workspace ; ls"
