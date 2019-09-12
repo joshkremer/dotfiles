@@ -21,3 +21,9 @@ brew cask install screaming-frog-seo-spider
 brew cask install spotify
 brew cask install tunnelbear
 brew cask install whatsapp
+brew cask install telegram
+brew cask install zoomus
+brew cask install slack
+brew cask install skype
+brew cask install steam
+brew cask install quickbooks-online
