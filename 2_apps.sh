@@ -27,3 +27,4 @@ brew cask install slack
 brew cask install skype
 brew cask install steam
 brew cask install quickbooks-online
+brew cask install microsoft-office
