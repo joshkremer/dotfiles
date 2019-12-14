@@ -11,8 +11,9 @@ brew cask install keka
 brew cask install jumpcut
 brew cask install local-by-flywheel
 brew cask install transmit
-brew cask install atom
+brew cask install visual-studio-code
 brew cask install github
+brew cask install timely
 
 brew cask install 1password
 brew cask install odrive
