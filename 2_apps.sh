@@ -9,7 +9,7 @@ brew cask install github
 brew cask install iterm2
 brew cask install keka
 brew cask install jumpcut
-brew cask install local-by-flywheel
+brew cask install local
 brew cask install transmit
 brew cask install visual-studio-code
 brew cask install github
