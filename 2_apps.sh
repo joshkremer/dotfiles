@@ -29,3 +29,7 @@ brew cask install skype
 brew cask install steam
 brew cask install quickbooks-online
 brew cask install microsoft-office
+brew cask install jq
+brew cask install ncdu
+brew tap shopify/shopify
+brew install themekit
