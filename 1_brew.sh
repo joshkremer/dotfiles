@@ -88,6 +88,9 @@ brew install vbindiff
 brew install zopfli
 brew install wget
 brew install exa
+brew install starship
+brew install fd
+brew install htop
 
 # Remove outdated versions from the cellar.
 brew cleanup
