@@ -91,19 +91,20 @@ alias SD="sudo shutdown -h now"
 alias delete="rm -rf"
 alias activate_venv="source ~/workspace/petfam_scripts/venv2.7/bin/activate"
 alias activate_venv_3.7="source ~/workspace/venv_3.7/bin/activate"
+alias activate_venv_3.8="~/workspace/venv_3.8/; pipenv shell"
 alias sitespeed_url_list="cd ~/workspace/webmasters-toolkit/sitespeed/; docker run --rm -v "$(pwd)":/sitespeed.io sitespeedio/sitespeed.io:8.15.2 ~/workspace/webmasters-toolkit/sitespeed/urls.txt"
 alias webmasters_toolkit="~/workspace/webmasters-toolkit"
 alias download_petfam_data="rsync -avzh pythonanywhere:/home/petfam/members/input_files ."
 alias vimrc="vim ~/.vimrc"
-alias zshrc="vim ~/.zshrc"
+alias zshrc="code ~/.zshrc"
 alias mapbuilder="~/workspace/pythonanywhere_petfam/mapbuilder"
 alias downloads="~/Downloads ; clear; ls"
 alias desktop="~/Desktop ; ls"
 alias workspace="~/workspace ; ls"
-alias shopify="~/workspace/shopify_dev_tools ; ls"
+alias shopify="cd ~/workspace/shopify_dev_tools/api_sync_v2 ; ls"
 alias passcrack="~/workspace/passcrack ; ls"
 alias pagespeed="~/workspace/webmasters-toolkit/page-speed/ ; ls"
-alias hosts="sudo vim /etc/hosts"
+alias hosts="code /etc/hosts"
 alias flushdns="sudo killall -HUP mDNSResponder; sudo killall -INFO mDNSResponder"
 alias zip2john="/usr/local/share/john/zip2john"
 alias pcat='pygmentize -f terminal256 -O style=native -g'
@@ -111,7 +112,14 @@ alias pcat='pygmentize -f terminal256 -O style=native -g'
 alias get_public_ip='curl https://api.ipify.org'
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
-
+alias django_server="cd ~/workspace/shopify_dev_tools/django_server/; ./manage.py runserver"
 
 #PATHs
 export PATH="/usr/local/sbin:$PATH"
+
+
+# run starship prompt
+eval "$(starship init zsh)"
+
+# z.sh directory traversal
+. ~/workspace/dotfiles/z.sh
