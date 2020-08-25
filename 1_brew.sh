@@ -91,6 +91,7 @@ brew install exa
 brew install starship
 brew install fd
 brew install htop
+brew install redis
 
 # Remove outdated versions from the cellar.
 brew cleanup

@@ -18,6 +18,9 @@ sudo defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int
 
 sudo defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
+# allow multiple keypresses for Vim / VSCode
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+
 # Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons
 defaults write com.apple.finder QuitMenuItem -bool true
 
