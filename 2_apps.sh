@@ -16,7 +16,6 @@ brew cask install github
 brew cask install timely
 brew cask install balenaetcher
 brew cask install 1password
-brew cask install odrive
 brew cask install sequel-pro
 brew cask install screaming-frog-seo-spider
 brew cask install spotify
