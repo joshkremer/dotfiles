@@ -24,9 +24,6 @@ brew install findutils
 brew install gnu-sed --with-default-names
 # Install Bash 4.
 
-# Install `wget` with IRI support.
-brew install wget
-
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
 
@@ -73,7 +70,6 @@ brew install xz
 
 # Install other useful binaries.
 brew install ack
-#brew install exiv2
 brew install git
 brew install git-lfs
 brew install lynx
