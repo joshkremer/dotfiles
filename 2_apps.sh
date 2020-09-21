@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+brew cask install airfoil
 brew cask install google-chrome
 brew cask install firefox
 brew cask install spectacle
