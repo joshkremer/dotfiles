@@ -16,7 +16,6 @@ brew cask install github
 brew cask install timely
 brew cask install balenaetcher
 brew cask install 1password
-brew cask install odrive
 brew cask install sequel-pro
 brew cask install screaming-frog-seo-spider
 brew cask install spotify
@@ -27,7 +26,6 @@ brew cask install slack
 brew cask install skype
 brew cask install steam
 brew cask install quickbooks-online
-brew cask install microsoft-office
 brew cask install jq
 brew cask install ncdu
 brew tap shopify/shopify
