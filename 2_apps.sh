@@ -2,6 +2,7 @@
 
 brew cask install airfoil
 brew cask install google-chrome
+brew cask install google-chat
 brew cask install firefox
 brew cask install spectacle
 brew cask install alfred
