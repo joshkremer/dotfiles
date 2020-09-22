@@ -34,3 +34,5 @@ brew cask install ncdu
 brew tap shopify/shopify
 brew install themekit
 brew cask install google-drive-file-stream
+brew tap homebrew/cask-drivers
+brew cask install zsa-wally
