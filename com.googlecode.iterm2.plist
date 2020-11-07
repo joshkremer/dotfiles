@@ -291,9 +291,9 @@
 	<key>NSWindow Frame NSColorPanel</key>
 	<string>0 163 224 275 0 0 1920 1057 </string>
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
-	<string>560 476 799 448 0 0 1920 1057 </string>
+	<string>855 -679 799 448 0 -1080 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1920 -1057 2409 1034 1920 -1080 1920 1057 </string>
+	<string>2044 -62 952 1057 1080 -62 1920 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -554,6 +554,8 @@
 			<real>1</real>
 			<key>Idle Code</key>
 			<integer>0</integer>
+			<key>Initial Text</key>
+			<string>activate_venv_3.8</string>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
@@ -912,7 +914,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.10348786484771574</real>
+			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
 			<true/>
 			<key>Use Bold Font</key>
@@ -928,7 +930,7 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>0</integer>
+			<integer>11</integer>
 			<key>Working Directory</key>
 			<string>/Users/joshkremer</string>
 		</dict>
@@ -940,22 +942,24 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, -1080}, {1920, 1080}}</string>
+		<string>{{1080, -62}, {1920, 1080}}</string>
 		<key>topLeft</key>
-		<string>{789, -153}</string>
+		<string>{1358, 744}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>44D627EC-34C8-460F-8F4E-1C9E9CF03F82</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>18</integer>
+	<integer>69</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
-	<real>622501247.02464998</real>
+	<real>622649910.95772505</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
 	<true/>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
 		<key>0</key>
@@ -1738,7 +1742,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-09-21T21:07:55Z</date>
+	<date>2020-10-08T14:08:07Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SoundForEsc</key>
@@ -1751,6 +1755,8 @@
 	<false/>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>iTerm Version</key>
 	<string>3.3.12</string>
 </dict>
