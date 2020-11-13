@@ -35,6 +35,7 @@ brew install screen
 brew install php
 brew install gmp
 brew install rsync
+brew install pipenv
 
 # Install font tools.
 brew tap bramstein/webfonttools

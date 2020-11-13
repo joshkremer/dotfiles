@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+
+
 pip install arrow
 pip install bigcommerce
 pip install bs4

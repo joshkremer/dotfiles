@@ -91,7 +91,7 @@ alias SD="sudo shutdown -h now"
 alias delete="rm -rf"
 alias activate_venv="source ~/workspace/petfam_scripts/venv2.7/bin/activate"
 alias activate_venv_3.7="source ~/workspace/venv_3.7/bin/activate"
-alias activate_venv_3.8="~/workspace/venv_3.8/; pipenv shell"
+alias activate_venv_3.8="pipenv shell"
 alias sitespeed_url_list="cd ~/workspace/webmasters-toolkit/sitespeed/; docker run --rm -v "$(pwd)":/sitespeed.io sitespeedio/sitespeed.io:8.15.2 ~/workspace/webmasters-toolkit/sitespeed/urls.txt"
 alias webmasters_toolkit="~/workspace/webmasters-toolkit"
 alias download_petfam_data="rsync -avzh pythonanywhere:/home/petfam/members/input_files ."
@@ -122,4 +122,4 @@ export PATH="/usr/local/sbin:$PATH"
 eval "$(starship init zsh)"
 
 # z.sh directory traversal
-. ~/workspace/dotfiles/z.sh
+. /Users/joshkremer/Documents/GitHub/dotfiles/z.sh
