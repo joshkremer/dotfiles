@@ -7,3 +7,5 @@ Pipfile
 Pipfile.lock
 .zshrc
 .DS_Store
+Shortcuts.json
+vscode-workspace-files.zip
