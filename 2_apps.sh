@@ -34,6 +34,7 @@ brew cask install timely
 brew cask install transmit
 brew cask install tunnelbear
 brew cask install visual-studio-code
+brew cask install virtualbox
 brew cask install whatsapp
 brew cask install zoomus
 brew cask install zsa-wally
