@@ -5,5 +5,4 @@ Pipfile
 .vscode
 Pipfile.lock
 .DS_Store
-Shortcuts.json
 vscode-workspace-files.zip
