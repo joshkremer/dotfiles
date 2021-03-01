@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
-# copy credentials,
-mkdir
-cp ~/.zshrc .
 cp -r ~/.ssh .
+cp ~/.zshrc .
 
 #Spectacle 
 cp /Users/joshkremer/Library/Application\ Support/Spectacle/Shortcuts.json .
