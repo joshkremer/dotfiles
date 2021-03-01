@@ -17,6 +17,7 @@ brew install jq
 brew install -cask keka
 brew install -cask local
 brew install ncdu
+brew install --cask phpstorm
 brew install --cask pycharm
 brew install -cask quickbooks-online
 brew install -cask screaming-frog-seo-spider
@@ -31,8 +32,9 @@ brew install -cask telegram
 brew install themekit
 brew install -cask timely
 brew install -cask transmit
+brew install --cask twitch
 brew install -cask tunnelbear
-brew install -cask visual-studio-code
+#brew install -cask visual-studio-code
 brew install -cask virtualbox
 brew install -cask whatsapp
 brew install -cask zoomus
