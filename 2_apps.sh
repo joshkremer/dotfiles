@@ -37,5 +37,5 @@ brew install --cask tunnelbear
 #brew install --cask visual-studio-code
 brew install --cask virtualbox
 brew install --cask whatsapp
-brew install --cask zoomus
+brew install --cask zoom
 brew install --cask zsa-wally
