@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# copy credentials,
+mkdir
 cp ~/.zshrc .
 cp -r ~/.ssh .
 
