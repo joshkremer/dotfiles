@@ -83,7 +83,8 @@ brew install pigz
 brew install pv
 brew install rename
 brew install rlwrap
-brew install ssh-copy-id
+
+brew install ssh-copy-idj
 brew install tree
 brew install vbindiff
 brew install zopfli
