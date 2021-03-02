@@ -131,7 +131,7 @@ export PATH="/usr/local/sbin:$PATH"
 eval "$(starship init zsh)"
 
 # z.sh directory traversal
-. /Users/joshkremer/Documents/workspace/GitHub/dotfiles/z.sh
+. /Users/joshkremer/Documents/workspace/dotfiles/z.sh
 # Created by `userpath` on 2021-01-07 16:59:10
 export PATH="$PATH:/Users/joshkremer/.local/bin"
 
