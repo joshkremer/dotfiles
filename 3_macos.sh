@@ -85,7 +85,7 @@ defaults write com.apple.systemuiserver menuExtras -array "/System/Library/CoreS
 ###############################################################################
 
 # Set up my preferred keyboard shortcuts
-cp -r init/spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
+cp -r Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
 
 ###############################################################################
 # Terminal & iTerm 2                                                          #
